@@ -7,6 +7,8 @@
     SubShader
     {
         Tags { "RenderType"="Transparent" "Queue"="Transparent" }
+        // 컬링을 하지 않는다.
+        // zwrite는 z버퍼에 기록을 할 것인지를 설정함
 		cull off
 		zwrite off
 
